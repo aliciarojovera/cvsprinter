@@ -10,6 +10,19 @@ img{
     width: 200px;
     margin:10px
 }
+
+p{
+    font-size: 12px
+}
+
+h3{
+    margin-right: 20px;
+}
+
+li{
+    font-size: 14px;
+}
+
 .leftSide{
     background-color: #1A1A1A;
     
@@ -17,52 +30,109 @@ img{
     text-align: right;
 
 }
+
 .rightSide{
     margin-left: 20px;
 }
 
-            #button {
-                width: 210mm;
-                height: 40px;
-                position: fixed;
-                z-index: 10;
-                top: 0px;
-            }
+#button {
+    width: 210mm;
+    height: 40px;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+}
 
-.hr{
-    width: 80%;
-}
-.rhr{
-    background-color:red
-}
-h3{
-    margin-right: 20px;
-}
-.rhr{
-    margin-top: 4px;
-}
-p{
-    font-size: 13px
-}
-li{
-    font-size: 15px;
-}
-.hr1{
-    margin-top:10px
-}
 .skills{
     margin-right:10px;
     display:flex;
     justify-content: space-between
 }
+
 .learning{
     list-style: none;
-    margin-left: -20px;
+    margin-left: -4px;
 }
+
 .mail , .tlf {
     text-decoration: none;
     color:black
 }
+
 .experience{
     list-style: none;
+}
+        
+
+.hr{
+    width: 80%;
+}
+
+
+.rhr{
+    margin-top: 4px;
+}
+.rhr2{
+    margin-bottom:10px
+}
+.hr1{
+    margin-top:10px
+}
+
+.langList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right:200px
+}
+
+.icon{
+    width: 70px;
+    margin: 0
+}
+
+.skillList{
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.nodejs{
+margin-top:5px
+}
+
+.react{
+    margin-top:1px;
+    margin-bottom:18px;
+    width: 80px;
+    margin-left:-6px
+}
+.express{
+    margin-top: -10px;
+}
+.mongo{
+    width: 140px;
+    margin-top:-20px;
+    margin-left:-25px
+}
+.htmlcssjs{
+    margin-top:-20px;
+    width: 80px;
+    margin-left:5px
+}
+.python{
+    margin: 5px 0px 0px 6px
+}
+.next{
+    width: 60px;
+    margin-left: 15px;
+    margin-top:-20px
+}
+.native{
+    width: 130px;
+    margin-left: -34px;
+}
+.firebase{
+    width: 120px;
+    margin-top:-12px;
+    margin-left: -23px;
 }

@@ -23,15 +23,6 @@
                 overflow: hidden;
             }
 
-            .no-overflow {
-                overflow: hidden;
-            }
-
-            #Header,
-            #Footer {
-                display: none !important;
-            }
-
             button {
                 display: none;
             }
@@ -60,10 +51,11 @@
             }
 
 
-            /* ... the rest of the rules ... */
         }
     </style>
 </head>
+
+<!-- Print function -->
 <script>
     function myFunction() {
         window.print();
@@ -73,36 +65,41 @@
 <body>
 
     <page class="page" size="A4">
+        <!-- Print button -->
         <div id="button" class="no-print">
-            <button type="button" onclick="myFunction()"><span class="button-txt"><i class="fa fa-print"
-                        aria-hidden="true"></i>
+            <button type="button" onclick="myFunction()"><span class="button-txt"><i class="fa fa-print"></i>
                     &nbsp;Prindi</span></button>
-
-
         </div>
+
         <div class=generaldiv>
             <div class="leftSide">
 
+                <!-- Proyects -->
                 <img src="https://res.cloudinary.com/aliciarojo/image/upload/v1610542160/circle-cropped_vu4rll.png">
                 <hr class="hr">
                 <h3>Proyectos</h3>
                 <br><br><br><br><br><br>
 
+                <!-- Training -->
                 <hr class="hr hr1">
                 <h3>Formación</h3>
                 <br><br><br>
 
+                <!-- Skills -->
                 <hr class="hr hr2">
                 <h3>Skills</h3>
             </div>
 
 
             <div class="rightSide">
+                <!-- Name -->
                 <h1><strong>Alicia Rojo Vera</strong> </h1>
+
+                <!-- Position -->
                 <h4>MERN Stack</h4>
+
+                <!-- Contact data -->
                 <div class="conect">
-
-
                     <a class="mail" href="mailto:aliciarojovera@hotmail.com">
                         <p> <i class="fa fa-envelope mail"></i> aliciarojovera@hotmail.com</p>
                     </a>
@@ -110,9 +107,11 @@
                         <p> <i class="fa fa-phone"></i> 620022031</p>
                     </a>
                     <p> <i class="fa fa-home"></i> Madrid</p>
-
                 </div>
                 <br>
+
+
+                <!-- Proyects -->
                 <hr class=rhr>
                 <ul>
                     <li> Localator: Web de gestión de reserva de locales de ensayo. HTML, CSS, NodeJS,
@@ -124,6 +123,7 @@
                         enemigos. Creado con HTML, Canvas y JS</li>
                 </ul>
 
+                <!-- Training -->
                 <hr class="rhr rhr1">
                 <ul>
                     <li>2020 - 2020. Ironhack. Web Development Bootcamp. HTML5 | CSS3 | BootStrap |
@@ -133,48 +133,86 @@
                     <li>2013 - 2015. IES Europa. Bachillerato bilingüe de ciencias tecnológicas</li>
                 </ul>
 
+                <!-- Skills -->
                 <hr class=" rhr rhr2">
                 <div class="skills">
                     <div>
-                        <ul>
-                            <li>React</li>
-                            <li>Express</li>
-                            <li>Node JS</li>
-                            <li>MongoDB</li>
+                        <ul class="skillList">
+                            <img class="icon nodejs"
+                                src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"><br>
+
+                            <img class="icon react"
+                                src="https://betabeers.com/uploads/blog/20170420_React_logo_wordmark.png">
+
+                            <img class="icon express" src="https://gitconnected.com/public/images/tutorials/express-js">
+
 
                         </ul>
                     </div>
                     <div>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JS</li>
-                            <li>Python</li>
+                        <ul class="skillList">
+                            <img class="icon mongo"
+                                src="https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2017/01/mongodb.png?w=775"><br>
+
+                            <img class="icon htmlcssjs" src="https://adrian-silva.neocities.org/html5jscss.png">
+                            <img class="icon python"
+                                src="https://www.codemonsters.es/sites/default/files/codemonsters/actividades/python_1280x350.png">
+
                         </ul>
                     </div>
                     <div>
 
-                        <ul>
-                            <li class="learning">Aprendiendo</li>
-                            <li>Next.js</li>
-                            <li>React Native</li>
-                            <li>Firebase</li>
+                        <ul class="skillList">
+                            <li class="learning">Aprendiendo</li>  <img class="icon firebase"
+                                src="https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png">
+                            <img class="icon next"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"><br>
+
+                            <img class="icon native"
+                                src="https://miro.medium.com/max/2742/1*safAvjgR68qpQCreDTOcYA.png">
+                          
                         </ul>
                     </div>
 
                 </div>
 
+
+                <!-- Experience -->
                 <hr class="rhr3">
                 <ul class="experience">
                     <li>Verano 2020 Camarera en el Varadero</li>
                     <li>Verano 2019 Cocinera en Restaurante Garum</li>
                     <li>Verano 2018 Dependienta en Mar del Coral</li>
                     <li>Verano 2017 Camarera La Bodeguilla del casino</li>
-                    <li>Verano 2016 Publicista en Periódico La Actualidad de Águilas & Dependienta en
-                        Mar del Coral</li>
+                    <li>Verano 2016 Publicista en Periódico La Actualidad de Águilas & Dependienta en Mar del Coral</li>
                     <li>Verano 2015 Camarera Bar Suizo</li>
                 </ul>
 
+                <!-- Languages -->
+                <hr class="rhr4">
+                <div class="languages">
+                    <ul class=langList>
+                        <div>
+                            <li>Español: nativo</li>
+                            <li>Inglés: avanzado</li>
+                        </div>
+
+                        <div>
+                            <li>Danés: inciado</li>
+                            <li>Francés: iniciado</li>
+                        </div>
+
+                    </ul>
+                </div>
+
+                <!-- About me -->
+                <hr class="rhr5">
+                <li>Soy Full Stack Junior, tengo 23 años y estoy empezando a incorporarme en el sector laboral. Estudié
+                    Filosofía en la UGR, y una de las cosas que más me llamó la atención de mi carrera fue la lógica. A
+                    raíz de eso empecé a aprender algo de Python por mi cuenta. <br> El coding pasó a ocupar gran parte
+                    de mi tiempo libre y por ello decidí hacer un cambio de carrera y estudiar desarrollo web en
+                    Ironhack. Actualmente, estoy muy interesada en lo serverless y estoy aprendiendo otras tecnologías
+                    por mi cuenta. </li>
             </div>
         </div>
     </page>
