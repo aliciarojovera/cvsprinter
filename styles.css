@@ -1,0 +1,68 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.generaldiv{
+    display:flex
+}
+
+img{
+    width: 200px;
+    margin:10px
+}
+.leftSide{
+    background-color: #1A1A1A;
+    
+    color:white;
+    text-align: right;
+
+}
+.rightSide{
+    margin-left: 20px;
+}
+
+            #button {
+                width: 210mm;
+                height: 40px;
+                position: fixed;
+                z-index: 10;
+                top: 0px;
+            }
+
+.hr{
+    width: 80%;
+}
+.rhr{
+    background-color:red
+}
+h3{
+    margin-right: 20px;
+}
+.rhr{
+    margin-top: 4px;
+}
+p{
+    font-size: 13px
+}
+li{
+    font-size: 15px;
+}
+.hr1{
+    margin-top:10px
+}
+.skills{
+    margin-right:10px;
+    display:flex;
+    justify-content: space-between
+}
+.learning{
+    list-style: none;
+    margin-left: -20px;
+}
+.mail , .tlf {
+    text-decoration: none;
+    color:black
+}
+.experience{
+    list-style: none;
+}

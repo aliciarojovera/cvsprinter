@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @media print {
+
+            /* Print settings */
+            html,
+            body,
+            .page {
+                width: 210mm;
+                height: 100%;
+                margin: 0 !important;
+                padding: 0 !important;
+                overflow: hidden;
+            }
+
+            .no-overflow {
+                overflow: hidden;
+            }
+
+            #Header,
+            #Footer {
+                display: none !important;
+            }
+
+            button {
+                display: none;
+            }
+
+            body {
+                -webkit-print-color-adjust: exact !important;
+            }
+
+            @media print {
+
+                .no-print,
+                .no-print * {
+                    display: none !important;
+                }
+            }
+
+            .cv {
+                width: 210mm;
+                height: 297mm;
+            }
+
+            body,
+            .page {
+                margin: 0;
+                box-shadow: 0;
+            }
+
+
+            /* ... the rest of the rules ... */
+        }
+    </style>
+</head>
+<script>
+    function myFunction() {
+        window.print();
+    }
+</script>
+
+<body>
+
+    <page class="page" size="A4">
+        <div id="button" class="no-print">
+            <button type="button" onclick="myFunction()"><span class="button-txt"><i class="fa fa-print"
+                        aria-hidden="true"></i>
+                    &nbsp;Prindi</span></button>
+
+
+        </div>
+        <div class=generaldiv>
+            <div class="leftSide">
+
+                <img src="https://res.cloudinary.com/aliciarojo/image/upload/v1610542160/circle-cropped_vu4rll.png">
+                <hr class="hr">
+                <h3>Proyectos</h3>
+                <br><br><br><br><br><br>
+
+                <hr class="hr hr1">
+                <h3>Formación</h3>
+                <br><br><br>
+
+                <hr class="hr hr2">
+                <h3>Skills</h3>
+            </div>
+
+
+            <div class="rightSide">
+                <h1><strong>Alicia Rojo Vera</strong> </h1>
+                <h4>MERN Stack</h4>
+                <div class="conect">
+
+
+                    <a class="mail" href="mailto:aliciarojovera@hotmail.com">
+                        <p> <i class="fa fa-envelope mail"></i> aliciarojovera@hotmail.com</p>
+                    </a>
+                    <a class="tlf" href="https://wa.link/q6p5vx">
+                        <p> <i class="fa fa-phone"></i> 620022031</p>
+                    </a>
+                    <p> <i class="fa fa-home"></i> Madrid</p>
+
+                </div>
+                <br>
+                <hr class=rhr>
+                <ul>
+                    <li> Localator: Web de gestión de reserva de locales de ensayo. HTML, CSS, NodeJS,
+                        Express, React, MongoDB, Google Maps Api, Axios, Nodemailer , Cloudinary, y
+                        React Bootstrap</li>
+                    <li>BarMe_: Web social que da a conocer distintos bares. HTML, CSS, NodeJS,
+                        Express, MongoDB, Google Maps Api, Cloudinary, Bootstrap, Nodemailer y Axios</li>
+                    <li> Akane: Juego de habilidad en el que un personaje se enfrenta a diversos tipos de
+                        enemigos. Creado con HTML, Canvas y JS</li>
+                </ul>
+
+                <hr class="rhr rhr1">
+                <ul>
+                    <li>2020 - 2020. Ironhack. Web Development Bootcamp. HTML5 | CSS3 | BootStrap |
+                        Javascript ES6 | MongoDB | Express | NodeJS | React</li>
+                    <li>2020 - 2020 Mioti. Python for Begginers Teach Training</li>
+                    <li>2015 - 2019. UGR. Grado en Filosofía.</li>
+                    <li>2013 - 2015. IES Europa. Bachillerato bilingüe de ciencias tecnológicas</li>
+                </ul>
+
+                <hr class=" rhr rhr2">
+                <div class="skills">
+                    <div>
+                        <ul>
+                            <li>React</li>
+                            <li>Express</li>
+                            <li>Node JS</li>
+                            <li>MongoDB</li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div>
+
+                        <ul>
+                            <li class="learning">Aprendiendo</li>
+                            <li>Next.js</li>
+                            <li>React Native</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <hr class="rhr3">
+                <ul class="experience">
+                    <li>Verano 2020 Camarera en el Varadero</li>
+                    <li>Verano 2019 Cocinera en Restaurante Garum</li>
+                    <li>Verano 2018 Dependienta en Mar del Coral</li>
+                    <li>Verano 2017 Camarera La Bodeguilla del casino</li>
+                    <li>Verano 2016 Publicista en Periódico La Actualidad de Águilas & Dependienta en
+                        Mar del Coral</li>
+                    <li>Verano 2015 Camarera Bar Suizo</li>
+                </ul>
+
+            </div>
+        </div>
+    </page>
+
+
+</body>
+
+</html>
