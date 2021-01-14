@@ -7,14 +7,15 @@ button{
     padding:10px;
     border-radius: 4px;
     border-color:white;
-box-shadow: 3px 3px white, -1em 0 0.4em olive;
-transition:0.5s
+    box-shadow: 3px 3px white;
+    transition:0.5s
 }
+
 button:hover{
     padding:13px;
-    cursor:pointer
-    
+    cursor:pointer  
 }
+
 .generaldiv{
     display:flex
 }
