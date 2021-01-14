@@ -2,6 +2,19 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+button{
+    background-color: pink;
+    padding:10px;
+    border-radius: 4px;
+    border-color:white;
+box-shadow: 3px 3px white, -1em 0 0.4em olive;
+transition:0.5s
+}
+button:hover{
+    padding:13px;
+    cursor:pointer
+    
+}
 .generaldiv{
     display:flex
 }
@@ -23,6 +36,10 @@ li{
     font-size: 14px;
 }
 
+.about{
+    font-size: 14px;
+    margin:0
+}
 .leftSide{
     background-color: #1A1A1A;
     
@@ -63,21 +80,39 @@ li{
     list-style: none;
 }
         
-
+.proyect{
+    color: rgb(203, 77, 153);
+    text-decoration: none;
+}
 .hr{
     width: 80%;
+    margin-top:6px
 }
 
+.hr1{
+    margin-top:10px
+}
 
+.hr2{
+    margin-top:10px
+}
+.hr3{
+    margin-top:11px
+}
+.hr5{
+    margin-top:1px
+}
+.hr6{
+    margin-top:3px
+}
 .rhr{
     margin-top: 4px;
 }
 .rhr2{
-    margin-bottom:10px
-}
-.hr1{
+    margin-bottom:6px;
     margin-top:10px
 }
+
 
 .langList{
     list-style: none;
@@ -106,9 +141,7 @@ margin-top:5px
     width: 80px;
     margin-left:-6px
 }
-.express{
-    margin-top: -10px;
-}
+
 .mongo{
     width: 140px;
     margin-top:-20px;
